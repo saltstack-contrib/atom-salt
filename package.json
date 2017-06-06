@@ -6,14 +6,14 @@
     "atom": "*",
     "node": "*"
   },
-  "homepage": "https://github.com/saltstack/atom-salt",
+  "homepage": "https://github.com/saltstack-contrib/atom-salt",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saltstack/atom-yaml.git"
+    "url": "https://github.com/saltstack-contrib/atom-salt.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saltstack/atom-salt/issues"
+    "url": "https://github.com/saltstack-contrib/atom-salt/issues"
   },
   "main": "./lib/salt",
   "activationCommands": {
