@@ -6,6 +6,16 @@
     'include': 'source.jinja'
   }
   {
+    'begin': '\{([%#{])'
+    'end': '([%#}])\}'
+    'name': 'jinja.tag.in.yaml'
+    'patterns': [
+      {
+        'include': 'source.jinja'
+      }
+    ]
+  }
+  {
     'begin': '^(\\s*)(?:(-)|(?:(-\\s*)?(\\w+\\s*(:))))\\s*(\\||>)'
     'beginCaptures':
       '2':
